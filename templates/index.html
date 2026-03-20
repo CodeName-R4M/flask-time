@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis</title>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1 id="main-title">
+                {{message}}
+            </h1>
+            <div class="stats-card">
+                <p>Total Revenue</p>
+                <strong id="total-revenue-value">${{total_revenue}}</strong>
+            </div>
+        </header>
+        
+        <nav class="dashboard-nav">
+            <div id="dynamic-charts-buttons" class="button-group"></div>
+            <button id="clear-charts-btn" class="dynamic-chart-btn clear-btn" onclick="clearCharts()">Clear Workspace</button>
+        </nav>
+
+        <main id="dynamic-charts-display" class="charts-grid">
+            <div id="chart-workspace" class="dynamic-chart-container"></div>
+        </main>
+    </div>
+
+    <div id="snackbar"></div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script>
+        fetch('/charts')
+            .then(response => response.json())
+            .then(charts => {
+                const buttonContainer = document.getElementById('dynamic-charts-buttons');
+                const displayContainer = document.getElementById('dynamic-charts-display');
+                
+                charts.forEach(chart => {
+                    const button = document.createElement('button');
+                    button.className = 'dynamic-chart-btn';
+                    button.textContent = `Show ${chart.name}`;
+                    button.onclick = () => showChart(chart.id);
+                    buttonContainer.appendChild(button);
+                });
+            })
+            .catch(error => console.error('Error loading charts:', error));
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+ SNO   REG_NO             STUDENT_NAME  TOTAL  Has_Fail
+   1 22TN0001                 AARTHY.S    NaN     False
+   2 22TN0002          ABBIREDDY VINAY    NaN      True
+   3 22TN0006                ADITYA .R    NaN     False
+   4 22TN0009                  AKASH.S    NaN     False
+   5 22TN0011                   ANBU.J    NaN     False
+   6 22TN0014             ARSULINGAM.T    NaN     False
+   7 22TN0017                 BALAJI.R    NaN      True
+   8 22TN0018          BHARATHIDASAN.S    NaN      True
+   9 22TN0021              CHANDIRAN.S    NaN     False
+  10 22TN0024                 DEEPAK.K    NaN     False
+  11 22TN0027               DHAYALAN.B    NaN     False
+  12 22TN0029                DHIVYAA.S    NaN     False
+  13 22TN0030           DINESHKUMAR .M    NaN     False
+  14 22TN0032                GAUDHAM.R    NaN      True
+  15 22TN0033              GOKULNATH.K    NaN      True
+  16 22TN0035          HARIDHARSHINI.S    NaN     False
+  17 22TN0036                 HARINI.K    NaN     False
+  18 22TN0038              HARIPRIYA.I    NaN     False
+  19 22TN0039               HARYSHWA.S    NaN      True
+  20 22TN0041              HEMALATHA.M    NaN     False
+  21 22TN0045         JEEVAGANABATHY.K    NaN      True
+  22 22TN0047 JEFRINA MARY CATCHIRAYAR    NaN     False
+  23 22TN0048             JEGANATHAN.I    NaN      True
+  24 22TN0055        KENCY SEROPHINE.E    NaN     False
+  25 22TN0057                KISHORE.M    NaN      True
+  26 22TN0060                LAKSHMI.R    NaN     False
+  27 22TN0063            LOKESHWARAN.S    NaN     False
+  28 22TN0065               MADANRAJ.M    NaN     False
+  29 22TN0067          MAHAA POORANI.S    NaN     False
+  30 22TN0068             MANIKANDAN.R    NaN     False
+  31 22TN0069         MOHAMAD SIDDIQ.S    NaN      True
+  32 22TN0070               MOHANRAJ.K    NaN      True
+  33 22TN0074                 NAFISA.F    NaN     False
+  34 22TN0075               NANDHINI.S    NaN      True
+  35 22TN0077           NAVIN ROSHAN.S    NaN     False
+  36 22TN0079                 NUHANA.A    NaN     False
+  37 22TN0080            PAVAN KUMAR.P    NaN     False
+  38 22TN0081            PRABHAVATHI.M    NaN     False
+  39 22TN0082          PRAVEEN KUMAR.D    NaN     False
+  40 22TN0083               PREMNATH.K    NaN     False
+  41 22TN0084              PUVIRAJAN.P    NaN     False
+  42 22TN0086                  RAFAN.A    NaN      True
+  43 22TN0090             RAVIRAGHAV.S    NaN      True
+  44 22TN0091               RISABHAN.A    NaN     False
+  45 22TN0092            RUTHRAPATHI.P    NaN     False
+  46 22TN0095               SANTHIYA.P    NaN     False
+  47 22TN0097              SARUKESH .G    NaN      True
+  48 22TN0098                SATHISH.S    NaN      True
+  49 22TN0099                 SHAAM .T    NaN      True
+  50 22TN0101               SIDDARTH.M    NaN      True
+  51 22TN0105               SUCHITRA.S    NaN     False
+  52 22TN0106             SUDHARSHAN.S    NaN      True
+  53 22TN0108               THEEBIGA.T    NaN     False
+  54 22TN0109           THILAKESHWAR.S    NaN      True
+  55 22TN0110             TILAKKUMAR.R    NaN      True
+  56 22TN0112               VARUNRAJ.M    NaN      True
+  57 22TN0113      VENGAUDARAMANAN.G S    NaN     False
+  58 22TN0114        VENKADAKRISHNAN.J    NaN     False
+  59 22TN0117         VISHNU VARDHAN.R    NaN      True
